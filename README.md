@@ -4,6 +4,32 @@
 
 First public release of **ABYZOR IZZY Synth**, a free VST3 synthesizer for Windows designed around fast sound creation, simple controls, and an intuitive workflow.
 
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/ef240205-6640-4572-bd83-874dc293c403"
+    alt="ABYZOR IZZY Synth"
+    width="898"
+  />
+</p>
+<p align="center">
+  <a href="../../releases">
+    <img src="https://img.shields.io/github/v/release/SEU_USUARIO/SEU_REPO?label=version" alt="Version">
+  </a>
+  <a href="../../releases">
+    <img src="https://img.shields.io/github/downloads/SEU_USUARIO/SEU_REPO/total?label=downloads" alt="Downloads">
+  </a>
+  <a href="../../releases">
+    <img src="https://img.shields.io/badge/platform-Windows-blue" alt="Platform">
+  </a>
+  <a href="../../releases">
+    <img src="https://img.shields.io/badge/format-VST3-black" alt="Format">
+  </a>
+  <a href="../../releases">
+    <img src="https://img.shields.io/badge/license-free-brightgreen" alt="Free">
+  </a>
+</p>
+
+
 ## ✨ What's included
 
 ### Sound Creation
