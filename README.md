@@ -18,15 +18,10 @@ First public release of **ABYZOR IZZY Synth**, a free VST3 synthesizer for Windo
   <a href="../../releases">
     <img src="https://img.shields.io/github/downloads/abyzor/abyzor-izzy-synth/total?label=downloads" alt="Downloads">
   </a>
-  <a href="../../releases">
-    <img src="https://img.shields.io/badge/platform-Windows-blue" alt="Platform">
-  </a>
-  <a href="../../releases">
-    <img src="https://img.shields.io/badge/format-VST3-black" alt="Format">
-  </a>
-  <a href="../../releases">
-    <img src="https://img.shields.io/badge/license-free-brightgreen" alt="Free">
-  </a>
+  <img src="https://img.shields.io/badge/platform-Windows-blue" alt="Windows">
+  <img src="https://img.shields.io/badge/format-VST3-black" alt="VST3">
+  <img src="https://img.shields.io/badge/price-FREE-brightgreen" alt="Free">
+  <img src="https://img.shields.io/badge/macOS-COMING%20SOON-lightgrey" alt="macOS Coming Soon">
 </p>
 
 
