@@ -1,74 +1,77 @@
-# ABYZOR IZZY Synth — Changelog
+# ABYZOR IZZY Synth v0.1.0
 
-## [v0.1.0] — 2026-09-10
+**The easiest way to create sounds.**
 
-Release inicial alinhada à versão embutida no build (`project(IZZY_SYNTH VERSION 0.1.0)` no CMake).
+First public release of **ABYZOR IZZY Synth**, a free VST3 synthesizer for Windows designed around fast sound creation, simple controls, and an intuitive workflow.
 
-### Produto e build
+## ✨ What's included
 
-- **ABYZOR IZZY Synth** — VST3 e Standalone Win64 (Release x64).
-- Script [`build_vst.bat`](build_vst.bat): configure CMake (VS 2017 Win64), compila `IzzySynth_VST3` e `IzzySynth_Standalone`.
-- Splash screen JUCE desligado no CMake.
-- Artefatos: `build/IzzySynth_artefacts/Release/VST3/ABYZOR IZZY Synth.vst3` e `.../Standalone/ABYZOR IZZY Synth.exe`.
+### Sound Creation
+- **8 patch slots** for quick sound exploration.
+- **GENERATE** fills the next available slot with a new patch.
+- Four sound categories:
+  - BASS
+  - STAB
+  - LEAD
+  - PLUCK
+- **9 macro controls** for shaping each patch.
+- Real-time waveform visualization.
+- Built-in MIDI keyboard.
 
-### Som e workflow
+### 🎛️ Interface
+- Minimal, hardware-inspired interface.
+- Waveform scope.
+- Patch slot browser.
+- Large on-screen MIDI keyboard.
+- Fast workflow focused on experimentation rather than complex synthesis menus.
 
-- Oito slots de patch; **GENERATE** preenche o próximo slot.
-- Seletor de função: **BASS**, **STAB**, **LEAD**, **PLUCK**.
-- Nove knobs de controle do patch (output, length, punch, space, etc.) ligados ao APVTS.
+### 🔄 Updates
+- Built-in update checker.
+- Automatically checks for newer versions.
+- Update notification with **Download** / **Later** options.
+- Version state is preserved between sessions.
 
-### Interface
+### 🔗 ABYZOR Ecosystem
+Quick access to other ABYZOR products directly from the plugin:
 
-- Logo ABYZOR no header (BinaryData).
-- Scope de áudio e painel de slots.
-- Teclado MIDI horizontal (range MIDI 24–84).
-- Janela do editor ~900×732 px; barra **More from ABYZOR** acima do scope.
+- Genesis
+- Variations
+- One
+- Updates
 
-### Ecossistema ABYZOR
+### ⌨️ Computer Keyboard
+- Standard JUCE QWERTY keyboard mapping.
+- **Z** — octave down
+- **X** — octave up
 
-- Chips com link: **Genesis**, **Variations**, **One** (cores de marca, texto branco, larguras fixas).
-- Chip **Updates**: verificação manual e automática (após ~3 s no standalone).
+## 💻 Compatibility
 
-### Atualizações in-app
+**Windows**
 
-- `UpdateChecker` consulta o endpoint remoto e compara versão numérica com a do plugin instalado.
-- Overlay com **Download** / **Later**; versão dispensada guardada no state do processor.
+- VST3
+- Standalone
+- 64-bit
 
-### Teclado do computador (QWERTY)
+## 📦 Installation
 
-- Mapeamento padrão JUCE (`awsedftgyhujkolp;`).
-- **Z** / **X** (sem modificadores): baixar / subir oitava de toque; scroll do teclado on-screen (`IzzyMidiKeyboard`).
+Install the VST3 plugin and load **ABYZOR IZZY Synth** from your DAW's plugin browser.
+
+The standalone version can also be launched independently.
+
+## 🆓 Free
+
+IZZY Synth is completely free to use.
+
+> **Simple sounds. Endless ideas.**
+
+More IZZY is coming.
 
 ---
 
-## Versão de update (não é o changelog)
+### Download
 
-O plugin **não** lê este ficheiro. A versão instalada vem de `ABYZOR_VERSION_STRING` (CMake → **0.1.0**). O check de update faz GET em:
+**[Download the latest release](../../releases/latest)**
 
-`https://abyzor.space/izzy/version.json`
+For more information:
 
-Campos aceites para a versão remota (primeiro não vazio): `version`, `latest`, `latest_version`.  
-URL de download: `downloadUrl`, `download`, `download_url` ou `url`; se faltar, usa `https://abyzor.space/products/izzy/`.
-
-- Remoto **igual** a 0.1.0 → chip **Up to date**.
-- Remoto **maior** que 0.1.0 → update disponível (ex.: `Up v0.2.0`).
-
-### Exemplo para publicar no servidor
-
-Ficheiro em `https://abyzor.space/izzy/version.json` (hospedagem no site; pode 404 até publicares):
-
-```json
-{
-  "version": "0.1.0",
-  "downloadUrl": "https://abyzor.space/products/izzy/"
-}
-```
-
-Alternativa equivalente (também suportada pelo código):
-
-```json
-{
-  "latest": "0.1.0",
-  "url": "https://abyzor.space/products/izzy/"
-}
-```
+**https://abyzor.space/products/izzy/**
