@@ -13,10 +13,10 @@ First public release of **ABYZOR IZZY Synth**, a free VST3 synthesizer for Windo
 </p>
 <p align="center">
   <a href="../../releases">
-    <img src="https://img.shields.io/github/v/release/SEU_USUARIO/SEU_REPO?label=version" alt="Version">
+    <img src="https://img.shields.io/github/v/release/abyzor/abyzor-izzy-synth?label=version" alt="Version">
   </a>
   <a href="../../releases">
-    <img src="https://img.shields.io/github/downloads/SEU_USUARIO/SEU_REPO/total?label=downloads" alt="Downloads">
+    <img src="https://img.shields.io/github/downloads/abyzor/abyzor-izzy-synth/total?label=downloads" alt="Downloads">
   </a>
   <a href="../../releases">
     <img src="https://img.shields.io/badge/platform-Windows-blue" alt="Platform">
