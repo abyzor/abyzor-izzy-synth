@@ -10,7 +10,7 @@ Version 2.0 introduces a completely rebuilt sound engine, dedicated synthesis ar
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/ef240205-6640-4572-bd83-874dc293c403"
+    src="https://github.com/user-attachments/assets/e6d28ede-46b5-4f77-b295-7faebf18eb23"
     alt="ABYZOR IZZY Synth"
     width="898"
   />
