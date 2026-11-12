@@ -98,7 +98,9 @@ IZZY Synth has been rebuilt from the ground up.
 | Platform | Formats |
 |---|---|
 | Windows 64-bit | VST3, Standalone |
-| macOS | VST3, AU, Standalone |
+| macOS (10.13+, Intel & Apple Silicon) | VST3, AU, Standalone |
+
+macOS builds are **universal** but **not notarized** by Apple; after download, follow `INSTALL.txt` in the release zip (`xattr` / Gatekeeper).
 
 ## Installation
 
@@ -129,8 +131,10 @@ Visit [abyzor.space](https://abyzor.space) to explore more.
 
 ## Download
 
+**Latest release:** [IZZY Synth 2.0.0](https://github.com/abyzor/abyzor-izzy-synth/releases/tag/v2.0.0) — `ABYZOR-Izzy-Windows.zip`, `IZZY-Synth-macOS.zip`
+
 <p align="center">
-  <a href="../../releases/latest">
+  <a href="https://github.com/abyzor/abyzor-izzy-synth/releases/latest">
     <img src="https://img.shields.io/badge/DOWNLOAD-IZZY%20SYNTH-brightgreen?style=for-the-badge" alt="Download IZZY Synth">
   </a>
 </p>
